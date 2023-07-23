@@ -1,0 +1,84 @@
+.navbar{
+    background-color: rgb(44, 55, 75);
+
+
+}
+body{
+    background-color: rgb(229, 237, 221);
+}
+.font{
+    color: white;
+    font-size: 55px;
+    display: flex;
+    justify-content:start;
+    margin-left: 15px;
+}
+.navbar-brand{
+    color:white;
+    font-size: 30px;
+    
+}
+
+#row1{
+    margin-top: 60px;
+}
+.box{
+    height: 550px;
+    width: 300px;
+    background-color:rgb(56, 53, 53);
+    border-radius: 20px;
+    
+}
+.box1{
+    background-color:rgb(56, 53, 53);
+    height: 60px;
+    width: 600px;
+    border-radius: 15px;
+    color: gray;
+    display: flex;
+    align-items:center ;
+    
+}
+h4{
+    margin-left: 10px;
+}
+
+.box2{
+    height: 120px;
+    width: 190px;
+    background-color: rgb(56, 53, 53);
+    margin-top: 70px;
+    border-radius: 15px;
+    
+}
+.box3{
+    height:200px;
+    width:820px;
+    background-color: rgb(56, 53, 53);
+    margin-top: 70px;
+    border-radius: 15px;
+    
+}
+.col-4{
+    display: flex;
+    justify-content: center;
+}
+#col1{
+    display: flex;
+    justify-content: center;
+}
+#collast{
+    display: flex;
+    justify-content: center;
+}
+
+.col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:992px) {
+    .col-lg-8{
+        margin-top: 30px;
+    }
+    
+}
